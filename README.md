@@ -2,3 +2,4 @@
 
 ## Configuración Terraform  
 Este repositorio aloja una configuración de Terraform y se usará para prácticas con automatizaciones.
+Se van a realizar varios commits con información irrelevante para poder probar las funcionalidades de los comandos `rebase`, `squash` y `reword`.
