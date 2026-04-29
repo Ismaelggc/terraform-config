@@ -27,17 +27,6 @@ jobs:
       - name: Establece Terraform
         uses: hashicorp/setup-terraform@v2
 
-      - name: Espera a que LocalStack esté listo
-        run: |
-          for i in $(seq 1 20); do
-            if curl -s http://localhost:4566/health | grep '"initialized": true' >/dev/null; then
-              echo "LocalStack ready"
-              exit 0
-            fi
-            sleep 3
-          done
-          curl http://localhost:4566/health || true
-          exit 1
 
       - name: Inicializa Terraform
         working-directory: terraform
