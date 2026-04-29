@@ -2,4 +2,6 @@
 
 ## Configuración Terraform  
 Este repositorio aloja una configuración de Terraform y se usará para prácticas con automatizaciones.
+Vamos a usar este repositorio para familiarizarnos con las automatizaciones de Github.  
+Primero vamos a automatizar al automatización de Terraform y posteriormente vamos a automatizar un despliegue de Terraform dirigido a LocalStack. Al ser una práctica no tiene una utilidad real como tal más allá de comprobar que el deploy se realiza correctamente, pero en su uso real con AWS permite crear infraestructuras en la nube de forma automatizada.
 Se van a realizar varios commits con información irrelevante para poder probar las funcionalidades de los comandos `rebase`, `squash` y `reword`.
